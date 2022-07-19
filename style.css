@@ -1,0 +1,53 @@
+body {
+    font-size: 15pt;
+    background-color: #ddd;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.top-container{
+  width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  
+}
+.top-title{
+  color: blue;
+}
+.players{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 1px;
+}
+.player{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.player img{
+  width:56px;
+  height: 56px;
+}
+.player-name{
+  margin-left: 10px;
+}
+
+hr{
+  border: 2px solid #ddd;
+}
+
+/*-----------------
+| Top Blog Style
+-------------------*/
+.blog{
+  display: flex;
+}
+.thumbnail img{
+  width: 177px;
+  height: 177px;
+}
+.blog-info{
+  margin-left: 10px;
+}
